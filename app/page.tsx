@@ -5,8 +5,7 @@ import "./globals.css";
 export default function Home() {
   return (
     <div className="background">
-      <div className="bottomImage"></div>
-      <div className="backgroundColor w-screen h-screen flex justify-center ">
+      <div className="w-screen h-screen flex justify-center ">
       <main className="flex flex-col w-[40%] items-center text-white justify-center">
         <div className="flex gap-4">
           <img src="/images/logo.svg"></img>
@@ -23,10 +22,11 @@ export default function Home() {
             <label className="titleFont text-[16px] text-center">Presale Launch Coming Soon!</label>
           </div>
 
-          <div className="flex justify-center gap-8 mt-8 w-full">
+          <div className="flex justify-center gap-4 mt-8 w-full">
             <img src="/images/twitter.png"></img>
             <img src="/images/medium.png"></img>
             <img src="/images/telegram.png"></img>
+            <img src="/images/youtube.png"></img>
           </div>
         </div>
       </main>
